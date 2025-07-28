@@ -5,15 +5,20 @@ A hybrid deep learning approach to classify emotions in conversational dialogue 
 
 ---
 
-## 📚 Dataset Overview
+# 🧠 Emotion Classifier using RoBERTa (Streamlit App)
 
-The dataset is structured as JSON with conversations containing multiple utterances labeled with emotion tags.
+This project is a Streamlit-powered web app that uses a fine-tuned RoBERTa model to classify emotions from user-provided text. Upload a JSON file of text-label pairs and evaluate the model’s performance instantly.
 
-Example:
-```json
-{
-  "utterance_ID": 3,
-  "text": "Buzz him in.",
-  "speaker": "Monica",
-  "emotion": "neutral"
-}
+---
+
+## 🚀 Features
+
+- Upload a `.json` file containing labeled emotion data.
+- Automatically runs evaluation on the uploaded data.
+- Displays model **accuracy**, **loss**, and **sample predictions**.
+- Supports CPU and GPU (CUDA) execution.
+
+---
+
+## 📁 File Structure
+
